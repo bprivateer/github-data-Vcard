@@ -1,0 +1,51 @@
+body *{
+  border:solid black 1px;
+  margin:0px ;
+  padding: 0;
+
+}
+ul{
+  display: flex;
+  flex-direction: column;
+
+}
+li{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: purple;
+  padding: 20px;
+  border-radius: 10px;
+}
+h3{
+  display: flex;
+  justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+p{
+  display: flex;
+  justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+
+.container{
+  display: flex;
+  flex-flow:row nowrap;
+  margin-top: 100px;
+}
+
+img{
+  height: 160px;
+  width: 146px;
+  border-radius: 60%;
+
+}
