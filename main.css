@@ -45,9 +45,10 @@ h3{
 }
 p{
   display: flex;
+  border-left: solid 2px;
   justify-content: center;
     font-family: 'Karla', sans-serif;
-    height: 300px;
+padding-left: 30px;
     width: 300px;
     /*float: right;*/
 }

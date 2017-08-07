@@ -52,7 +52,7 @@ function reqListener(){
   // let data = JSON.parse(this.responseText);
 
 
-container.innerHTML += `<div id="main"><div id="list"><ul><li><b>${myInfo}</b></li>
+container.innerHTML += `<div id="main"><div id="list"><ul><li><b>My infoooo</b></li>
 <li>${data.name}</li>
 <li><a href="${data.html_url}">${data.html_url}</a></li>
 <li>${data.email}</li>
