@@ -1,5 +1,5 @@
 body *{
-  border:solid black 1px;
+
   margin:0px ;
   padding: 0;
 
@@ -7,14 +7,12 @@ body *{
 ul{
   display: flex;
   flex-direction: column;
-
 }
+
 li{
-  display: flex;
-  flex-direction: column;
-  float: left;
   margin-top: 20px;
     font-family: 'Karla', sans-serif;
+
 }
 h1{
   font-family: 'Pacifico', cursive;
@@ -34,12 +32,15 @@ p{
   display: flex;
   justify-content: center;
     font-family: 'Karla', sans-serif;
+    height: 300px;
+    width: 300px;
+    float: right;
 }
 
 
 .container{
   display: flex;
-  flex-flow:row nowrap;
+  flex-flow:row wrap;
   margin-top: 100px;
 }
 
