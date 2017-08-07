@@ -4,14 +4,29 @@ body *{
   padding: 0;
 
 }
+#container{
+  display: flex;
+  flex-direction: column;
+
+}
+#main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
 ul{
   display: flex;
   flex-direction: column;
+  /*float: right;*/
 }
 
 li{
   margin-top: 20px;
     font-family: 'Karla', sans-serif;
+    /*float: right;*/
+
 
 }
 h1{
@@ -34,15 +49,16 @@ p{
     font-family: 'Karla', sans-serif;
     height: 300px;
     width: 300px;
-    float: right;
+    /*float: right;*/
 }
 
 
-.container{
+/*.container{
   display: flex;
-  flex-flow:row wrap;
+  flex-flow:row nowrap;
   margin-top: 100px;
-}
+}*/
+
 
 img{
   height: 160px;

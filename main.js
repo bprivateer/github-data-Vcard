@@ -52,15 +52,15 @@ function reqListener(){
   // let data = JSON.parse(this.responseText);
 
 
-container.innerHTML += `<span><ul><li><b>${myInfo}</b></li>`
-container.innerHTML += `<li>${data.name}</li>`;
-container.innerHTML += `<li><a href="${data.html_url}">${data.html_url}</a></li>`;
-container.innerHTML += `<li>${data.email}</li>`;
-container.innerHTML += `<li>${data.company}</li>`;
-container.innerHTML += `<li><a href="${data.blog}">${data.blog}</a></li></ul>`;
+container.innerHTML += `<div id="main"><div id="list"><ul><li><b>${myInfo}</b></li>
+<li>${data.name}</li>
+<li><a href="${data.html_url}">${data.html_url}</a></li>
+<li>${data.email}</li>
+<li>${data.company}</li>
+<li><a href="${data.blog}">${data.blog}</a></li></ul></div>
 
 
-container.innerHTML +=`<h3>${bio}</h3> <p>${data.bio} <span><img src="${data.avatar_url}"></span></p></span>`;
+<div id="body"><h3>${bio}</h3> <p>${data.bio} <span><img src="${data.avatar_url}"></span></p></div></div>`;
 
 // container.innerHTML += `<span><img src="${data.avatar_url}"></span>`;
 
